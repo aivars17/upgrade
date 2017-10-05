@@ -1,0 +1,20 @@
+$blue: rgb(0, 0, 153);
+
+
+
+$deco: none;
+.top {
+	background-color: $blue;
+	font-size: 11px;
+	float: left;
+	a{
+		text-decoration: $deco;
+		color: white;
+		
+	&:hover {
+		text-decoration: $deco;
+		font-weight: bold;
+		color: white;
+	}
+	}
+}
