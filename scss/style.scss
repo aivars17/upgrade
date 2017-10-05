@@ -1,20 +1,53 @@
 $blue: rgb(0, 0, 153);
-
-
-
+$yellow: rgb(255,204,0);
+$orange: rgb(255,153,0);
+$gray: rgb(180,180,180);
+$graydark: rgb(104,104,104);
 $deco: none;
+$radius: 15px;
 .top {
 	background-color: $blue;
 	font-size: 11px;
-	float: left;
 	a{
 		text-decoration: $deco;
 		color: white;
-		
 	&:hover {
 		text-decoration: $deco;
 		font-weight: bold;
 		color: white;
 	}
 	}
+}
+.logo {
+	height: 60px; 
+	width:176px;
+	margin-left: -15px;
+}
+.btnZ, .btnW, .btnM{
+	text-decoration: $deco;
+	border-top-left-radius: $radius;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+.btnZ {
+	background-color: $yellow;
+	box-shadow: 5px 0px 0px $orange;
+	border-top-left-radius: $radius;
+	text-align: center;
+	margin-left: -10px;
+}
+.btnW, {
+	background-color: $gray;
+	box-shadow: 5px 0px 0px $graydark;
+	margin-left: 5px;
+}
+.btnM, {
+	background-color: $gray;
+	box-shadow: 5px 0px 0px $graydark;
+	margin-left: 5px;
+}
+.headline {
+	background-color: linear-gradient(to bottom, black 50%,white 100%);
 }

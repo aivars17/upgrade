@@ -20,7 +20,26 @@
           </div>
         </div>
       </div>
-
+      <div class="row">
+        <img  class="col-2 logo" src="images/logo.gif" alt="Delfi logo"></img>
+      </div>
+      <div class="row">
+        <div class="col head">
+          <div class="row">
+            <div class="col-6">
+              <div class="row">
+              <div class="col-5">vasario 20d., ketvirtadienis</div>
+              <a  class="col-2 btnZ">ŽINIOS</a>
+              <a  class="col-2 btnW">WEB A-Z</a>
+              <a  class="col-3 btnM">MANO DELFI</a>
+            </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col headline">dhd</div>
+      </div>
 
 
   </div>
