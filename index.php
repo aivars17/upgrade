@@ -4,6 +4,8 @@
   <title>DELFI - Žinios</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/9f8d340e28.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <script>
@@ -19,7 +21,8 @@ function closeNav() {
   </script>
 
   <div class="container">
-    <span class="menu navbar-toggler-icon" onclick="openNav()">open</span>
+    <div class="row"><div class="col"><span class="menu" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span></div></div>
+    
       <div class="row">
         <div class="col top">
           <div class="row">
