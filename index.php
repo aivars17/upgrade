@@ -21,7 +21,7 @@ function closeNav() {
   </script>
 
   <div class="container">
-    <div class="row"><div class="col"><span class="menu" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span></div></div>
+    <div class="row"><div class="col but"><span class="menu" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span></div></div>
     
       <div class="row">
         <div class="col top">
