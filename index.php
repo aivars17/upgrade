@@ -11,7 +11,7 @@
   <script>
     /* Set the width of the side navigation to 250px */
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "150px";
 }
 
 /* Set the width of the side navigation to 0 */
@@ -37,16 +37,16 @@ function closeNav() {
         </div>
       </div>
       <div class="row">
-        
-        <img  class="col-xl-2 col-auto  logo" src="images/logo.gif" alt="Delfi logo"></img>
-        
+        <div class="col-4 logcen"></div>
+        <img  class="col-xl-2 col-4  logo" style="text-align: center;" src="images/logo.gif" alt="Delfi logo"></img>
+        <div class="col-4 logcen"></div>
       </div>
       <div class="row">
         <div class="col head">
           <div class="row">
-            <div class="col-xl-6 col-12 ">
+            <div class="col-xl-7 col-12 ">
               <div class="row justify-col-content-center">
-              <div class="col-xl-5 col-12">vasario 20d., ketvirtadienis</div>
+              <div class="col-xl-4 col-12">vasario 20d., ketvirtadienis</div>
               <a href="#" class="col-xl-2 col-12 btnZ">ŽINIOS</a>
               <a href="#" class="col-xl-2 col-12 btnW">WEB A-Z</a>
               <a href="#" class="col-xl-3 col-12 btnM">MANO DELFI</a>
@@ -62,10 +62,10 @@ function closeNav() {
         <div class="col content">
           <div class="row">
             <div class="col-12 col-xl-3 leftside">
-              <div class="row justify-content-sm-center">
+              <div class="row ">
                 <div class="col l1">
                   <div class="row ">
-                    <div class="col  l2">Turinys</div>
+                    <div class="col l2">Turinys</div>
                   <div class="row ">
                     <a href="#" class="col-12">Delfi naujienos</a>
                     <a href="#" class="col-12">Verslas</a>
@@ -124,12 +124,28 @@ function closeNav() {
 
 
   </div>
-  <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <div id="mySidenav" class="sidenav"> 
+  <div class="row">
+  <a href="javascript:void(0)" class="closebtn col d-flex justify-content-end"  onclick="closeNav()">&times;</a>
+  </div> 
+  <a class="col" href="#">Internetas</a>
+  <a class="col" href="#">El.paštas</a>
+  <a class="col" href="#">Reklama</a>
+  <a class="col" href="#">Pagalba</a>
+  <a class="col" href="#">Delfi.lv</a>
+  <a class="col" href="#">Delfi.ee</a>
+  <div class="row ">
+    <div class="col" style="color:white; border-bottom: 1px solid white;">Turinys</div>
+  <div class="row ">
+    <a href="#" class="col-12">Delfi naujienos</a>
+    <a href="#" class="col-12">Verslas</a>
+    <a href="#" class="col-12">Sportas</a>
+    <a href="#" class="col-12">Pramogos</a>
+    <a href="#" class="col-12">DELFI moterims</a>
+    <a href="#" class="col-12">Archyvas</a>
+    <a href="#" class="col-12">DELFI šiandien</a>
+  </div>
+  </div>
 </div>
 
 <!-- Use any element to open the sidenav -->
