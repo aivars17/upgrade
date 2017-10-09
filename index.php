@@ -63,17 +63,31 @@ function closeNav() {
           <div class="row">
             <div class="col-12 col-xl-3 leftside">
               <div class="row ">
-                <div class="col l1">
+                <div class="col-12 l1">
                   <div class="row ">
                     <div class="col l2">Turinys</div>
                   <div class="row ">
-                    <a href="#" class="col-12">Delfi naujienos</a>
-                    <a href="#" class="col-12">Verslas</a>
-                    <a href="#" class="col-12">Sportas</a>
-                    <a href="#" class="col-12">Pramogos</a>
-                    <a href="#" class="col-12">DELFI moterims</a>
-                    <a href="#" class="col-12">Archyvas</a>
-                    <a href="#" class="col-12">DELFI šiandien</a>
+                    <a href="#" class="col-12 l3">Delfi naujienos</a>
+                    <a href="#" class="col-12 l3">Verslas</a>
+                    <a href="#" class="col-12 l3">Sportas</a>
+                    <a href="#" class="col-12 l3">Pramogos</a>
+                    <a href="#" class="col-12 l3">DELFI moterims</a>
+                    <a href="#" class="col-12 l3">Archyvas</a>
+                    <a href="#" class="col-12 l3">DELFI šiandien</a>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-12 l1">
+                  <div class="row ">
+                    <div class="col l2">Turinys</div>
+                  <div class="row ">
+                    <a href="#" class="col-12 l3">Delfi naujienos</a>
+                    <a href="#" class="col-12 l3">Verslas</a>
+                    <a href="#" class="col-12 l3">Sportas</a>
+                    <a href="#" class="col-12 l3">Pramogos</a>
+                    <a href="#" class="col-12 l3">DELFI moterims</a>
+                    <a href="#" class="col-12 l3">Archyvas</a>
+                    <a href="#" class="col-12 l3">DELFI šiandien</a>
                   </div>
                   </div>
                 </div>
@@ -115,7 +129,10 @@ function closeNav() {
             </div>
             <div class="col-12 col-xl-3">
               <div class="row">
-                <div class="col">asfd</div>
+                <div class="col"><img src="https://web.archive.org/web/20020907024341/http://g.delfi.lt/b/c/h_0509_delfi.gif"></div>
+                <div class="col"><img src="https://web.archive.org/web/20030220041239im_/http://ap.delfi.lt/i?region=554&name=411"></div>
+                <div class="col"><img src="https://web.archive.org/web/20030220041239im_/http://g.delfi.lt/d/t/good_to_go.gif"></div>
+                <div class="col"><img src="https://web.archive.org/web/20030220041239im_/http://g.delfi.lt/d/t/but_blank2.gif"></div>
               </div>
             </div>
           </div>
